@@ -90,7 +90,7 @@ body {
     left: 104px;
     position: absolute;
     right: 104px;
-    top: 153px;
+    top: 150px;
 }
 
 .form-control {
@@ -128,7 +128,7 @@ input[type=file] {
 }
 
 .form7 {
-    padding-bottom: 40px;
+    padding-bottom: 16px;
 }
 
 .form8 {
@@ -143,7 +143,7 @@ input[type=file] {
 }
 
 .form8 {
-    padding-bottom: 54px;
+    padding-bottom: 27px;
 }
 
 .min_bar_one > img {
@@ -159,11 +159,23 @@ input[type=file] {
     padding: 17px 65px;
 }
 
+.bg_img > img {
+    width: 65%;
+}
+
 
 /*************service area**************/
 
+.container.service_pad {
+    padding: 0 76px;
+}
+
 .service {
     background-color: #1E2429;
+}
+
+.summary_header {
+    padding-left: 1%;
 }
 
 .service_header > h1 {
@@ -203,6 +215,10 @@ ul.list {
 
 /************summary area*************/
 
+.container.summary_pad {
+    padding: 0 76px;
+}
+
 .summary_bg {
     background-color: #1e2429;
     padding: 12px;
@@ -213,15 +229,10 @@ ul.list {
     font-family: open sans;
     font-size: 18px;
     font-weight: 500;
+    line-height: 27px;
     margin: 0;
     padding-bottom: 19px;
     padding-top: 15px;
-}
-
-.img > img {
-    float: left;
-    padding-left: 30px;
-    padding-right: 24px;
 }
 
 .summary_header > h1 {
@@ -230,6 +241,13 @@ ul.list {
     font-size: 30px;
     font-weight: bold;
     padding-top: 25px;
+}
+
+.img {
+    float: left;
+    margin-top: 8px;
+    padding-left: 27px;
+    padding-right: 26px;
 }
 
 .summary_header > p {
@@ -241,7 +259,7 @@ ul.list {
 }
 
 .summary_tag {
-    padding: 25px 0 44px;
+    padding: 25px 0 44px 1%;
 }
 
 .summary_footer > p {
@@ -259,8 +277,7 @@ ul.list {
 }
 
 .input_lft > input {
-    background-image: url("book.png");
-    background-size: 100% 100%;
+    background: rgba(0, 0, 0, 0) url("book.png") no-repeat scroll 0 0 / 100% 100%;
     border: 0 none;
     padding: 13px 78px;
     position: absolute;
@@ -270,10 +287,11 @@ ul.list {
 
 .summary_footer {
     padding-bottom: 54px;
+    padding-left: 1%;
 }
 
 .log_right_pad {
-    padding-left: 40%;
+    padding-left: 33%;
     position: absolute;
 }
 
@@ -287,4 +305,8 @@ ul.list {
     font-size: 12px;
     padding-bottom: 26px;
     padding-top: 58px;
+}
+
+span {
+    color: #ff9000;
 }
