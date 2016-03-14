@@ -254,14 +254,22 @@ ul.list {
 .log_right {
     background-image: url("log-right.png");
     background-size: 100% 100%;
-    padding: 36px 260px;
+    padding: 48px 336px;
     width: 100%;
 }
 
-.log_right > input {
+.input_lft > input {
     background-image: url("book.png");
     background-size: 100% 100%;
     border: 0 none;
+    padding: 13px 78px;
+    position: absolute;
+    right: 409px;
+    top: 25px;
+}
+
+.summary_footer {
+    padding-bottom: 54px;
 }
 
 .log_right_pad {
@@ -271,4 +279,12 @@ ul.list {
 
 .logo_ft {
     float: left;
+}
+
+.copy > p {
+    color: #424647;
+    font-family: arial;
+    font-size: 12px;
+    padding-bottom: 27px;
+    padding-top: 58px;
 }
