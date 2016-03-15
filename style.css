@@ -23,12 +23,53 @@ body {
     background-position: center;
 }
 
+.col-sm-12.bg_area_pad {
+    padding: 0 76px;
+}
+
 .logo_txt h4 {
     color: #fff;
     font-family: arial;
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 0;
+}
+
+.col-sm-6.extra_ri {
+    padding-right: 0;
+}
+
+.mini_bar_grp {
+    padding-bottom: 16px;
+}
+
+.col-sm-6.extra_pad {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.col-sm-4.mar_right {
+    margin-right: -70px;
+    padding-bottom: 30px;
+}
+
+.col-sm-4.mar2_right {
+    margin-right: -72px;
+}
+
+.circle > img {
+    bottom: -42px;
+    position: absolute;
+    right: 101px;
+    width: 23%;
+}
+
+.arrow_bg > img {
+    bottom: -21px;
+    position: absolute;
+    right: 18px;
+    width: 7%;
+    z-index: 1;
 }
 
 .logo_txt > p {
@@ -40,7 +81,7 @@ body {
 
 .mini_bar {
     padding-bottom: 17px;
-    width: 95%;
+    width: 104%;
 }
 
 .min_bar_one > p {
@@ -78,7 +119,8 @@ body {
     color: #fff;
     font-family: open sans;
     font-size: 16px;
-    padding: 0 8px;
+    padding: 0 23px;
+    text-align: left;
 }
 
 .bg_right_area {
@@ -87,9 +129,9 @@ body {
 
 .form_area {
     background-color: #fff;
-    left: 104px;
+    left: 102px;
     position: absolute;
-    right: 104px;
+    right: 23px;
     top: 150px;
 }
 
@@ -115,8 +157,19 @@ body {
     padding: 0;
 }
 
-input[type=file] {
-    color: transparent;
+input[type="file"] {
+    opacity: 0;
+    position: relative;
+    z-index: 999;
+}
+
+.form6 {
+    position: relative;
+}
+
+.form6 > p {
+    position: absolute;
+    top: 7px;
 }
 
 .form7>.form-control {
@@ -139,7 +192,7 @@ input[type=file] {
     background-image: url("btn.png");
     background-size: 100% 100%;
     border: 0 none;
-    padding: 25px 126px;
+    padding: 25px 137px;
 }
 
 .form8 {
@@ -148,7 +201,9 @@ input[type=file] {
 
 .min_bar_one > img {
     position: absolute;
-    right: -59px;
+    right: -119px;
+    top: 496px;
+    z-index: 1;
 }
 
 .bg_left_area {
@@ -156,18 +211,18 @@ input[type=file] {
 }
 
 .bg_right_area {
-    padding: 17px 65px;
+    padding: 17px 0 17px 61px;
 }
 
 .bg_img > img {
-    width: 65%;
+    width: 74%;
 }
 
 
 /*************service area**************/
 
 .container.service_pad {
-    padding: 0 76px;
+    padding: 0 81px;
 }
 
 .service {
@@ -175,7 +230,7 @@ input[type=file] {
 }
 
 .summary_header {
-    padding-left: 1%;
+    padding-left: 0;
 }
 
 .service_header > h1 {
@@ -216,7 +271,7 @@ ul.list {
 /************summary area*************/
 
 .container.summary_pad {
-    padding: 0 76px;
+    padding: 0 94px;
 }
 
 .summary_bg {
@@ -259,7 +314,7 @@ ul.list {
 }
 
 .summary_tag {
-    padding: 25px 0 44px 1%;
+    padding: 25px 0 44px;
 }
 
 .summary_footer > p {
@@ -287,11 +342,11 @@ ul.list {
 
 .summary_footer {
     padding-bottom: 54px;
-    padding-left: 1%;
+    padding-left: 0;
 }
 
 .log_right_pad {
-    padding-left: 33%;
+    padding-left: 30.6%;
     position: absolute;
 }
 
@@ -309,4 +364,8 @@ ul.list {
 
 span {
     color: #ff9000;
+}
+
+.log_right_pad > img {
+    display: none;
 }

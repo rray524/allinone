@@ -1,0 +1,445 @@
+    @media (min-width:992px) and (max-width: 1199px) {
+        .col-sm-12.bg_area_pad {
+            padding: 0 42px;
+        }
+        .header_txt h1 {
+            font-size: 37px;
+        }
+        .header_txt > p {
+            font-size: 14px;
+        }
+        .form_area {
+            left: 99px;
+            right: 19px;
+            top: 140px;
+        }
+        .form1 {
+            padding: 29px 23px 14px;
+        }
+        .form2,
+        .form3,
+        .form4,
+        .form5,
+        .form6,
+        .form7 {
+            padding: 0 23px 14px;
+        }
+        .form8 > input {
+            padding: 22px 139px;
+        }
+        .form8 {
+            padding-bottom: 25px;
+            padding-top: 7px;
+        }
+        .logo > img {
+            width: 47%;
+        }
+        .logo_txt h4 {
+            font-size: 35px;
+            margin-bottom: 6px;
+        }
+        .logo_txt > p {
+            font-size: 27px;
+            margin-bottom: 11px;
+        }
+        .bg_img > img {
+            width: 79%;
+        }
+        .circle > img {
+            bottom: -25px;
+            right: 63px;
+            width: 23%;
+        }
+        .arrow_bg > img {
+            right: -2px;
+            width: 6%;
+        }
+        .min_bar_one > img {
+            right: -114px;
+            top: 509px;
+            width: 21%;
+        }
+        .service_header > h1 {
+            font-size: 34px;
+        }
+        .list li {
+            font-size: 14px;
+        }
+        .serv {
+            padding-bottom: 6px;
+        }
+        .summary_header > h1 {
+            font-size: 28px;
+            padding-top: 13px;
+        }
+        .summary_header > p {
+            padding-top: 6px;
+        }
+        .summary_bg > h1 {
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .summary_tag {
+            padding: 15px 0 28px;
+        }
+        .summary_footer {
+            padding-bottom: 30px;
+        }
+        .col-sm-4.mar_right {
+            margin-right: -58px;
+        }
+        .col-sm-4.mar2_right {
+            margin-right: -58px;
+        }
+        .mini_bar_grp {
+            padding-bottom: 6px;
+        }
+        .col-sm-4.mar_right {
+            padding-bottom: 20px;
+        }
+        .container.service_pad {
+            padding: 0 47px;
+        }
+        .container.summary_pad {
+            padding: 0 59px;
+        }
+        .log_right_pad {
+            padding-left: 33%;
+        }
+        .log_right {
+            padding: 48px 279px;
+        }
+        .input_lft > input {
+            padding: 11px 67px;
+            right: 337px;
+            top: 29px;
+        }
+        .log_right_pad > img {
+            display: none;
+        }
+    }
+    
+    @media (min-width:768px) and (max-width: 991px) {
+        .col-sm-12.bg_area_pad {
+            padding: 0 6px;
+        }
+        .logo > img {
+            width: 53%;
+        }
+        .logo_txt h4 {
+            font-size: 31px;
+        }
+        .logo_txt > p {
+            font-size: 27px;
+        }
+        .min_bar_one {
+            padding: 8px 34px;
+        }
+        .min_bar_one > p {
+            font-size: 17px;
+        }
+        .bg_right_area {
+            padding: 17px 0 17px 12px;
+        }
+        .header_txt > p {
+            font-size: 12px;
+        }
+        .header_txt h1 {
+            font-size: 27px;
+        }
+        .form_area {
+            left: 51px;
+            right: 20px;
+            top: 131px;
+        }
+        .form1 {
+            padding: 25px 22px 10px;
+        }
+        .form2,
+        .form3,
+        .form4,
+        .form5,
+        .form6,
+        .form7 {
+            padding: 0 22px 10px;
+        }
+        .form8 > input {
+            padding: 16px 126px;
+        }
+        .circle > img {
+            bottom: -31px;
+            right: 34px;
+            width: 25%;
+        }
+        .col-sm-4.mar2_right {
+            margin-right: -52px;
+        }
+        .col-sm-4.mar_right {
+            margin-right: -52px;
+            padding-bottom: 12px;
+        }
+        .mini_bar_grp {
+            padding-bottom: 0;
+        }
+        .arrow_bg > img {
+            bottom: -14px;
+            right: -5px;
+            width: 5%;
+            ;
+        }
+        .min_bar_one > img {
+            right: -67px;
+            top: 475px;
+            width: 16%;
+        }
+        .container.service_pad {
+            padding: 0 9px;
+        }
+        .service_header > h1 {
+            font-size: 29px;
+            padding-bottom: 14px;
+            padding-top: 2px;
+        }
+        .list li {
+            font-size: 12px;
+        }
+        .serv {
+            padding-bottom: 2px;
+        }
+        .container.summary_pad {
+            padding: 0 23px;
+        }
+        .summary_header > h1 {
+            font-size: 27px;
+            padding-top: 2px;
+        }
+        .summary_header > p {
+            font-size: 13px;
+            padding-top: 1px;
+        }
+        .summary_bg > h1 {
+            color: #fff;
+            font-family: open sans;
+            font-size: 13px;
+            font-weight: 500;
+            padding-bottom: 11px;
+            padding-top: 15px;
+        }
+        .summary_tag {
+            padding: 10px 0 23px;
+        }
+        .summary_footer > p {
+            font-size: 13px;
+        }
+        .logo_ft > img {
+            width: 67%;
+        }
+        .log_right {
+            padding: 33px 239px;
+        }
+        .input_lft > input {
+            padding: 6px 61px;
+            right: 284px;
+            top: 18px;
+        }
+        .log_right_pad > img {
+            display: none;
+        }
+    }
+    
+    @media (min-width:320px) and (max-width: 767px) {
+        .col-sm-12.bg_area_pad {
+            padding: 0 13px 0 0;
+        }
+        .logo {
+            text-align: center;
+        }
+        .logo > img {
+            width: 66%;
+        }
+        .logo_txt h4 {
+            font-size: 24px;
+            text-align: center;
+        }
+        .logo_txt > p {
+            font-size: 21px;
+            text-align: center;
+        }
+        .mini_bar {
+            padding-bottom: 10px;
+            width: 100%;
+        }
+        .min_bar_one > p {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .min_bar_one {
+            padding: 9px 34px;
+        }
+        .bg_right_area {
+            padding: 17px 0 454px 1px;
+        }
+        .header_txt h1 {
+            font-size: 27px;
+        }
+        .header_txt > p {
+            font-size: 11px;
+            padding: 0 13px;
+        }
+        .form_area {
+            left: 27px;
+            right: 15px;
+            top: 126px;
+        }
+        .arrow_bg > img {
+            display: none;
+        }
+        .col-sm-6.extra_pad {
+            padding-left: 12px;
+        }
+        .form1 {
+            padding: 20px 14px 10px;
+        }
+        .form2,
+        .form3,
+        .form4,
+        .form5,
+        .form6,
+        .form7 {
+            padding: 0 14px 10px;
+        }
+        .form8 > input {
+            padding: 12px 117px;
+        }
+        .col-sm-12.bg_area_pad.bg_area_pad2 {
+            padding-right: 0;
+        }
+        .col-sm-4.mar_right {
+            margin-right: 0;
+            padding: 0 26px 26px;
+        }
+        .bg_img {
+            text-align: center;
+        }
+        .col-sm-4.mar2_right {
+            margin-right: 0;
+            padding: 0 26px 26px;
+        }
+        .bg_img > img {
+            width: 100%;
+        }
+        .col-sm-4.img-pad {
+            padding: 0 26px 19px;
+        }
+        .circle {
+            text-align: center;
+        }
+        .circle > img {
+            width: 50%;
+            position: static;
+        }
+        .container.service_pad {
+            padding: 0 13px;
+        }
+        .service_header > h1 {
+            font-size: 18px;
+            padding-bottom: 13px;
+            padding-top: 0;
+            text-align: center;
+        }
+        .list li {
+            font-size: 13px;
+        }
+        .serv {
+            padding-bottom: 0;
+        }
+        .container.summary_pad {
+            padding: 0 27px;
+        }
+        .summary_header > h1 {
+            font-size: 16px;
+            padding-top: 1px;
+        }
+        .summary_header > p {
+            font-size: 12px;
+            line-height: 24px;
+            padding-top: 3px;
+        }
+        .img {
+            text-align: center;
+            float: none;
+        }
+        .summary_tag {
+            padding: 2px 0 18px;
+        }
+        .summary_bg > h1 {
+            font-size: 14px;
+            line-height: 26px;
+            text-align: center;
+        }
+        .summary_footer > p {
+            font-size: 12px;
+            line-height: 25px;
+        }
+        .summary_footer {
+            padding-bottom: 14px;
+        }
+        .logo_ft {
+            float: none;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        .log_right_pad {
+            padding-left: 0;
+        }
+        .log_right {
+            padding: 48px 234px;
+            width: 100%;
+        }
+        .input_lft > input {
+            padding: 7px 56px;
+            right: 281px;
+            top: 34px;
+        }
+        .log_right {
+            display: none;
+            padding: 48px 234px;
+            width: 100%;
+        }
+        .log_right_pad {
+            padding: 0 34px;
+            position: static;
+            text-align: center;
+        }
+        .log_right_pad > img {
+            width: 100%;
+            display: block;
+        }
+        .copy > p {
+            font-size: 11px;
+            padding-bottom: 5px;
+            padding-top: 33px;
+        }
+        .form8 {
+            padding-top: 13px;
+        }
+    }
+    
+    @media (min-width:481px) and (max-width: 767px) {
+        .min_bar_one > p {
+            padding-left: 13%;
+        }
+        .mini_bar_grp {
+            padding: 0 53px;
+        }
+        .header_txt h1 {
+            font-size: 43px;
+        }
+        .header_txt > p {
+            font-size: 19px;
+            padding: 0 21px;
+        }
+        .form_area {
+            top: 158px;
+        }
+    }
